@@ -1,0 +1,10 @@
+data=csvread('output.txt',0,0);
+plot(data(:,1),data(:,2))
+xlabel('iteration')
+ylabel('population')
+plot(data(:,1),data(:,3))
+xlabel('iteration')
+ylabel('average speed')
+plot(data(:,1),data(:,4))
+xlabel('iteration')
+ylabel('average size')
